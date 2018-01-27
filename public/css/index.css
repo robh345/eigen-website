@@ -1,0 +1,31 @@
+
+body, html {
+    margin: 0; !important;
+    padding: 0; !important;
+
+}
+
+.backgroundimg {
+    /*background-image: url("background.jpg");*/
+    /*background-size: cover;*/
+    /*background-position: center center;*/
+    /*background-repeat: no-repeat;*/
+    /*height: 100;*/
+    /*width: 100%;*/
+    /*background-attachment: fixed;*/
+    /*background-color: #343a40;*/
+    background-color: #24292e;
+    background-image: url(../img/background.jpg),linear-gradient(#191c20, #24292e 15%);
+    background-repeat: repeat-x;
+    background-position: center 0, 0 0, 0 0;
+}
+
+/*a:link {*/
+    /*color: white;*/
+/*}*/
+/*a:visited {*/
+    /*color: ;*/
+/*}*/
+/*a:hover {*/
+    /*color:;*/
+/*}*/
