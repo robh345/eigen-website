@@ -8,13 +8,15 @@
 
 function custom_echo($x, $length)
 {
-    if(strlen($x)<=$length)
-    {
+    if (strlen($x) <= $length) {
         return $x;
-    }
-    else
-    {
-        $y=substr($x,0,$length) . '...';
+    } else {
+        $y = substr($x, 0, $length) . '...';
         return $y;
     }
+}
+
+function redirect($url)
+{
+    header("Location: $url");
 }

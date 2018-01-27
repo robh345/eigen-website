@@ -1,3 +1,11 @@
+<?php
+include "db_connection.php";
+include "function.php";
+
+if (empty($_SESSION['username'])){
+        redirect('login_pagina.php');
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,7 +32,7 @@
                 <a class="nav-link" href="content.php">content</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#"></a>
+                <a class="nav-link" href="logout.php">Log uit</a>
             </li>
         </ul>
     </div>
