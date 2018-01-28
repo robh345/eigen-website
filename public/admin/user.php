@@ -32,10 +32,10 @@ if (empty($_SESSION['username'])) {
             <li class="nav-item">
                 <a class="nav-link" href="content.php">content</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
                 <a class="nav-link" href="user.php">gebruikers</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="rechtengroepen.php">rechtengroepen</a>
             </li>
         </ul>
